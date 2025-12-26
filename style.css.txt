@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #0d1b2a;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-btn a {
+    margin-left: 10px;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #1b263b, #415a77);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 42px;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+.btn-main {
+    background: #25D366;
+    color: white;
+    padding: 14px 26px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.btn-ws {
+    background: #25D366;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-mudah {
+    background: #ff9800;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-mudah.big {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* CTA */
+.cta {
+    background: #e0e1dd;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* FOOTER */
+footer {
+    background: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* FLOATING WS */
+.float-ws {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+}
